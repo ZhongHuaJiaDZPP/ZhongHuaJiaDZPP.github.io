@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+#主体设置
+title: 张鹏's Personal Blog
+bio: 此生无悔入华夏，来世仍在种花家！
+reading_time: true
+words_per_minute: 200
+logo: 'assets/img/logo.png'
+background: 'assets/img/placeholder-big.jpg'
+tiled_bg: false
+locale: zh_CN
+    
+#外部链接
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+email: engineerofz@gmail.com
+twitter: pdzjfj
+github-url: ZhongHuaJiaDZPP
+instagram: pdzjfj
+weibo: n/种花家的软件兔
+
+# Build settings
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
+mathjax: true
+sass:
+    sass_dir: _sass
+    style: compressed
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
